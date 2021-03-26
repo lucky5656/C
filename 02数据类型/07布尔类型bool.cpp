@@ -4,18 +4,18 @@ using namespace std;
 int main()
 {
 
-	//²¼¶ûÀàĞÍ
-	//1.´´½¨boolÊı¾İÀàĞÍ
-	bool flag = true;  //true´ú±íÕæ,±¾ÖÊÉÏÎª1
+	//å¸ƒå°”ç±»å‹
+	//1.åˆ›å»ºboolæ•°æ®ç±»å‹
+	bool flag = true;  //trueä»£è¡¨çœŸ,æœ¬è´¨ä¸Šä¸º1
 	cout << flag << endl;
-	flag = false;  //false´ú±í¼Ù,±¾ÖÊÉÏÎª0
+	flag = false;  //falseä»£è¡¨å‡,æœ¬è´¨ä¸Šä¸º0
 	cout << flag << endl;
 	
-	//2.²é¿´boolÀàĞÍËùÕ¼ÄÚ´æ¿Õ¼ä
-	cout << "boolÀàĞÍËùÕ¼ÄÚ´æ¿Õ¼ä£º" << sizeof(bool) << endl;
+	//2.æŸ¥çœ‹boolç±»å‹æ‰€å å†…å­˜ç©ºé—´
+	cout << "boolç±»å‹æ‰€å å†…å­˜ç©ºé—´ï¼š" << sizeof(bool) << endl;
 
 	system("pause");
 
 	return 0;
 
-}
+} 
