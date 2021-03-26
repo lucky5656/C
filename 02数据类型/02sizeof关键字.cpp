@@ -3,27 +3,27 @@ using namespace std;
 
 int main()
 {
-	//������sizeof�������������ռ���ڴ��С
-	//�﷨��sizeof(��������/����)
+	//可以用sizeof求出数据类型所占用内存大小
+	//语法：sizeof(数据类型/变量)
 
 	short  num1 = 10;
 
-	cout << "shortռ�õĿռ�Ϊ�� " << sizeof(short) << endl;
+	cout << "short占用的空间为： " << sizeof(short) << endl;
 
 	int num2 = 10;
 
-	cout << "intռ�õĿռ�Ϊ�� " << sizeof(int) << endl;
+	cout << "int占用的空间为： " << sizeof(int) << endl;
 
 	long num3 = 10;
 
-	cout << "longռ�õĿռ�Ϊ�� " << sizeof(long) << endl;
+	cout << "long占用的空间为： " << sizeof(long) << endl;
 
 	long long num4 = 10;
 
-	cout << "long longռ�õĿռ�Ϊ�� " << sizeof(long long) << endl;
+	cout << "long long占用的空间为： " << sizeof(long long) << endl;
 
 	system("pause");
 
 	return  0;
 
-}
+} 
