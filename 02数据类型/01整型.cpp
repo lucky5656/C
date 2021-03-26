@@ -3,17 +3,17 @@ using namespace std;
 
 int main()
 {
-	//整型
-	//1.短整型(-32768~32767)
+	//脮没脨脥
+	//1.露脤脮没脨脥(-32768~32767)
 	short  num1 = 10;
 
-	//2.整型
+	//2.脮没脨脥
 	int num2 = 10;
 
-	//3.长整型
+	//3.鲁陇脮没脨脥
 	long num3 = 10;
 
-	//4.长长整型
+	//4.鲁陇鲁陇脮没脨脥
 	long long num4 = 10;
 
 	cout << "num1 = " << num1 << endl;
@@ -25,4 +25,4 @@ int main()
 
 	return  0;
 
-}
+} 
