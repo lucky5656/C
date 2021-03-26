@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-	//1.µ¥¾«¶È£ºfloat
-	//2.Ë«¾«¶È£ºdouble
-	//Ä¬ÈÏÇé¿öÏÂ£¬Êä³öÒ»¸öĞ¡Êı£¬»áÏÔÊ¾6Î»ÓĞĞ§Êı×Ö
+	//1.å•ç²¾åº¦ï¼šfloat
+	//2.åŒç²¾åº¦ï¼šdouble
+	//é»˜è®¤æƒ…å†µä¸‹ï¼Œè¾“å‡ºä¸€ä¸ªå°æ•°ï¼Œä¼šæ˜¾ç¤º6ä½æœ‰æ•ˆæ•°å­—
 
 	float  f1 = 3.1415926f;
 
@@ -15,12 +15,12 @@ int main()
 
 	cout << "d1 = " << d1 << endl;
 
-	//Í³¼ÆfloatºÍdoubleÕ¼ÓÃµÄÄÚ´æ¿Õ¼ä
-	cout << "floatÕ¼ÓÃµÄÄÚ´æ¿Õ¼äÎª" << sizeof(float) << endl;
+	//ç»Ÿè®¡floatå’Œdoubleå ç”¨çš„å†…å­˜ç©ºé—´
+	cout << "floatå ç”¨çš„å†…å­˜ç©ºé—´ä¸º" << sizeof(float) << endl;
 
-	cout << "doubleÕ¼ÓÃµÄÄÚ´æ¿Õ¼äÎª" << sizeof(double) << endl;
+	cout << "doubleå ç”¨çš„å†…å­˜ç©ºé—´ä¸º" << sizeof(double) << endl;
 
-	//¿ÆÑ§¼ÆÊı·¨
+	//ç§‘å­¦è®¡æ•°æ³•
 	float f2 = 3e2;  //3*10^2=300;
 	cout << "f2 = " << f2 << endl;
 
@@ -31,4 +31,4 @@ int main()
 
 	return  0;
 
-}
+} 
