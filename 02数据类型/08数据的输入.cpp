@@ -5,38 +5,38 @@ using namespace std;
 int main()
 {
 
-	//1.ÕûĞÍ
+	//1.æ•´å‹
 	int a = 0;
-	cout << "Çë¸øÕûĞÍ±äÁ¿a¸³Öµ£º" << endl; 
+	cout << "è¯·ç»™æ•´å‹å˜é‡aèµ‹å€¼ï¼š" << endl; 
 	cin >> a;
-	cout << "ÕûĞÍ±äÁ¿a = " << a << endl;
+	cout << "æ•´å‹å˜é‡a = " << a << endl;
 
-	//2.¸¡µãĞÍ
+	//2.æµ®ç‚¹å‹
 	float f = 3.14f;
-	cout << "Çë¸ø¸¡µãĞÍ±äÁ¿f¸³Öµ£º" << endl;
+	cout << "è¯·ç»™æµ®ç‚¹å‹å˜é‡fèµ‹å€¼ï¼š" << endl;
 	cin >> f;
-	cout << "¸¡µãĞÍ±äÁ¿f = " << f << endl;
+	cout << "æµ®ç‚¹å‹å˜é‡f = " << f << endl;
 
-	//3.×Ö·ûĞÍ
+	//3.å­—ç¬¦å‹
 	char ch = 'a';
-	cout << "Çë¸ø×Ö·ûĞÍ±äÁ¿ch¸³Öµ£º" << endl;
+	cout << "è¯·ç»™å­—ç¬¦å‹å˜é‡chèµ‹å€¼ï¼š" << endl;
 	cin >> ch;
-	cout << "×Ö·ûĞÍ±äÁ¿ch = " << ch << endl;
+	cout << "å­—ç¬¦å‹å˜é‡ch = " << ch << endl;
 
-	//4.×Ö·û´®ĞÍ
+	//4.å­—ç¬¦ä¸²å‹
 	string str = "Hello World";
-	cout << "Çë¸ø×Ö·û´®str¸³Öµ£º" << endl;
+	cout << "è¯·ç»™å­—ç¬¦ä¸²strèµ‹å€¼ï¼š" << endl;
 	cin >> str;
-	cout << "×Ö·û´®str = " << str << endl;
+	cout << "å­—ç¬¦ä¸²str = " << str << endl;
 
-	//5.²¼¶ûÀàĞÍ
+	//5.å¸ƒå°”ç±»å‹
 	bool flag = false;
-	cout << "Çë¸ø²¼¶ûÀàĞÍflag¸³Öµ£º" << endl;
-	cin >> flag;  //boolÀàĞÍÖ»ÒªÊÇ·Ç0µÄÖµ¶¼´ú±íÕæ
-	cout << "²¼¶ûÀàĞÍflag = " << flag << endl;
+	cout << "è¯·ç»™å¸ƒå°”ç±»å‹flagèµ‹å€¼ï¼š" << endl;
+	cin >> flag;  //boolç±»å‹åªè¦æ˜¯é0çš„å€¼éƒ½ä»£è¡¨çœŸ
+	cout << "å¸ƒå°”ç±»å‹flag = " << flag << endl;
 
 	system("pause");
 
 	return 0;
 
-}
+} 
