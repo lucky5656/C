@@ -4,16 +4,16 @@ using namespace std;
 int main()
 {
 
-	//×ªÒå×Ö·û
+	//è½¬ä¹‰å­—ç¬¦
 
-	//»»ĞĞ·û \n
+	//æ¢è¡Œç¬¦ \n
 	cout << "Hello World\n";
 
-	//·´Ğ±¸Ü \\
+	//åæ–œæ  \\
 
-	cout<<"\\"<<endl;  //Á½¸ö·´Ğ±¸Ü²ÅÄÜÊä³öÒ»¸ö·´Ğ±¸Ü
+	cout<<"\\"<<endl;  //ä¸¤ä¸ªåæ–œæ æ‰èƒ½è¾“å‡ºä¸€ä¸ªåæ–œæ 
 
-	//Ë®Æ½ÖÆ±í·û \t  £º ×÷ÓÃÊÇ¿ÉÒÔÕûÆëµÄÊä³öÊı¾İ
+	//æ°´å¹³åˆ¶è¡¨ç¬¦ \t  ï¼š ä½œç”¨æ˜¯å¯ä»¥æ•´é½çš„è¾“å‡ºæ•°æ®
 	cout << "aa\tHelloWorld" << endl;
 	cout << "aaa\tHelloWorld" << endl;
 	cout << "aaaa\tHelloWorld" << endl;
@@ -23,4 +23,4 @@ int main()
 
 	return 0;
 
-}
+} 
